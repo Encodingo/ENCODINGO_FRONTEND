@@ -1,22 +1,17 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Header from "../Header";
 import Footer from "../Footer";
 import tutorImg from "../../assets/images/tutor.png";
 import aboutshape3 from "../../assets/images/about-shape-3.png";
 import aboutshape4 from "../../assets/images/about-shape-4.svg";
-// import manish from "../../assets/images/manish.jpg";
-// import shubham from "../../assets/images/shubham.jpg";
 import { IonIcon } from "@ionic/react";
 import { checkmarkDoneOutline } from "ionicons/icons";
-// const data = {
-//   img: tutorImg,
-//   startline: "Teach Online",
-//   midline: "English OR Coding",
-//   endline: "With Encodingo",
-//   tagline:
-//     "Emphasize these benefits in your communication with potential tutors to attract qualified and passionate educators to join Encodingo.",
-// };
+
 const Tutor = () => {
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }, []);
+
   return (
     <>
       <Header />

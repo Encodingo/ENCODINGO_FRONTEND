@@ -76,6 +76,7 @@ const SubscriptionPlan = () => {
 
   useEffect(() => {
     handlePlanSelection("1"); // Select 1-month plan by default
+    window.scrollTo({ top: 0, behavior: "smooth" });
   }, []);
 
   const handlePlanSelection = (plan) => {

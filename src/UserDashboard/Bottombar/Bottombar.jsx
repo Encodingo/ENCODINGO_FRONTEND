@@ -36,7 +36,9 @@ const Bottombar = () => {
           <Link to={"/"} className="nav__logo">
             Explore
           </Link>
-
+          <Link to={"/"} className="nav__logo" style={{marginLeft:"13rem"}}>
+            Subscriptions
+          </Link>
           <div className="nav__menu" id="nav-menu">
             <ul className="nav__list">
               <li onClick={AllCourseHandler} className="nav__item">
