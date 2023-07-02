@@ -91,6 +91,7 @@ const SubscriptionPlan = () => {
   };
 
   const handlePay = async (session, price) => {
+    toast.success("Wait!!! payment in process...");
     const {
       data: { order },
     } = await axios.post(`${server}/checkout`, {

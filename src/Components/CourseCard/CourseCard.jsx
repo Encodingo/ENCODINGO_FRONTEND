@@ -35,6 +35,7 @@ const CourseCard = ({
 
   // handeling razor pay
   const handlePay = async () => {
+    toast.success("Wait!!! payment in process...");
     const {
       data: { order },
     } = await axios.post(`${server}/checkout`, {
