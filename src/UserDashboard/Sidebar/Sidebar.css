@@ -274,7 +274,7 @@
   .home-section {
     position: relative;
     background: hsl(36, 33%, 94%);
-    min-height: 100vh;
+    min-height: 100%;
     top: 0;
     left: 0px;
     width: 100vw;
