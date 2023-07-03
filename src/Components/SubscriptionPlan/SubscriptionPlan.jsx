@@ -107,7 +107,7 @@ const SubscriptionPlan = () => {
       amount: order.amount,
       currency: "INR",
       name: "Encodingo",
-      description: "Test Transaction",
+      description: "Vidyayan Eduventure Pvt Ltd",
       image:
         "https://media.licdn.com/dms/image/C4D0BAQFtBLGRZheO1g/company-logo_200_200/0/1680117752366?e=1695859200&v=beta&t=_FpoVRBERwBTxlq2nF1K_QDNdAGHv578-hIOYp2rVRo",
       order_id: order.id,
