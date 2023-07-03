@@ -57,7 +57,7 @@ const CourseCard = ({
       name: "Encodingo",
       description: "Vidyayan Eduventure Pvt Ltd",
       image:
-        "https://media.licdn.com/dms/image/C4D0BAQFvqR2yqXYzsQ/company-logo_200_200/0/1680119587249?e=1693440000&v=beta&t=fiQMknfmCrszgJ9Z062TFdDes2iTU2g2-Fi-ArhVSss",
+        "https://media.licdn.com/dms/image/C4D0BAQFtBLGRZheO1g/company-logo_200_200/0/1680117752366?e=1695859200&v=beta&t=_FpoVRBERwBTxlq2nF1K_QDNdAGHv578-hIOYp2rVRo",
       order_id: order.id, //This is a sample Order ID. Pass the `id` obtained in the response of Step 1
       // "handler": function (response){
       //   axios.post(`apipay/paymentVerification`,{
