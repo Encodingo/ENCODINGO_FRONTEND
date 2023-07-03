@@ -36,7 +36,7 @@ const Bottombar = () => {
           <Link to={"/"} className="nav__logo">
             Explore
           </Link>
-          <Link to={"/"} className="nav__logo" style={{marginLeft:"13rem"}}>
+          <Link to={"/subscription"} className="nav__logo" style={{marginLeft:"13rem"}}>
             Subscriptions
           </Link>
           <div className="nav__menu" id="nav-menu">

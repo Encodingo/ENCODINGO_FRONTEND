@@ -48,14 +48,14 @@ const Sidebar = () => {
             <span className="tooltip">Search</span>
           </li> */}
           <li>
-            <Link to={'/user_dashboard'}>
+            <Link to={"/user_dashboard"}>
               <i className="bx bx-book-open"></i>
               <span className="links_name">All Courses</span>
             </Link>
             <span className="tooltip">All Courses</span>
           </li>
           <li>
-            <Link to={'/user_mycourses'}>
+            <Link to={"/user_mycourses"}>
               <i className="bx bx-book"></i>
               <span className="links_name">My Courses</span>
             </Link>
@@ -71,6 +71,14 @@ const Sidebar = () => {
           </li>
 
           <li>
+            <Link to={"/subscription"}>
+              <i class="bx bx-link-external visit-icon"></i>
+              <span className="links_name">Subscriptions</span>
+            </Link>
+            <span className="tooltip">Subscriptions</span>
+          </li>
+
+          <li>
             <Link to={"/user_profile"}>
               <i className="bx bx-user"></i>
               <span className="links_name">Profile</span>
@@ -79,17 +87,16 @@ const Sidebar = () => {
           </li>
 
           <li>
-            <Link to={'/'}>
+            <Link to={"/"}>
               <i class="bx bx-link-external visit-icon"></i>
               <span className="links_name">Explore</span>
             </Link>
             <span className="tooltip">Explore</span>
           </li>
 
-          {
-            user && user.role === "admin" ? (
+          {user && user.role === "admin" ? (
             <li>
-              <Link to={'/admin/dashboard'}>
+              <Link to={"/admin/dashboard"}>
                 <i class="bx bx-link-external visit-icon"></i>
                 <span className="links_name">Admin</span>
               </Link>
