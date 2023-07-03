@@ -40,7 +40,7 @@ const CreateCourse = () => {
   ];
 
   const l = [
-    'Beginer',
+    'Beginner',
     'Medium',
     'Advance'
   ];
