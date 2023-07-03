@@ -54,8 +54,8 @@ const CourseCard = ({
       // Enter the Key ID generated from the Dashboard
       amount: order.amount, // Amount is in currency subunits. Default currency is INR. Hence, 50000 refers to 50000 paise
       currency: "INR",
-      name: "Vidyayan Eduventure Pvt Ltd",
-      description: "Test Transaction",
+      name: "Encodingo",
+      description: "Vidyayan Eduventure Pvt Ltd",
       image:
         "https://media.licdn.com/dms/image/C4D0BAQFvqR2yqXYzsQ/company-logo_200_200/0/1680119587249?e=1693440000&v=beta&t=fiQMknfmCrszgJ9Z062TFdDes2iTU2g2-Fi-ArhVSss",
       order_id: order.id, //This is a sample Order ID. Pass the `id` obtained in the response of Step 1
